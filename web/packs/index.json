@@ -2,7 +2,8 @@
   "packs": [
     "png.json",
     "Robertpackk.json",
-    "KitShmil.json"
+    "KitShmil.json",
+    "fumoplushies.json"
   ],
   "homeserver_url": "https://matrix-client.matrix.org"
 }
