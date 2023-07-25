@@ -1,9 +1,10 @@
 {
   "packs": [
+    "TouhouShitMemes_by_fStikBot.json",
     "Robertpackk.json",
     "KitShmil.json",
     "fumoplushies.json",
-    "gifs.json"
+    "FumoFumoDiscord.json"
   ],
   "homeserver_url": "https://matrix-client.matrix.org"
 }
