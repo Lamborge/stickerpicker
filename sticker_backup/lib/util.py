@@ -24,10 +24,10 @@ from . import matrix
 
 open_utf8 = partial(open, encoding='UTF-8')
 
-def convert_image(data: bytes, file_type: str) -> (bytes, int, int):
+def convert_image(data: bytes) -> (bytes, int, int):
     image: Image.Image = Image.open(BytesIO(data)).convert("RGBA")
     new_file = BytesIO()
-    image.save(new_file, file_type)
+    image.save(new_file, "png")
     w, h = image.size
     if w > 256 or h > 256:
         # Set the width and height to lower values so clients wouldn't show them as huge images
@@ -56,7 +56,7 @@ def add_to_index(name: str, output_dir: str) -> None:
         print(f"Added {name} to {index_path}")
 
 
-def make_sticker(ft: str, mxc: str, width: int, height: int, size: int,
+def make_sticker(mxc: str, width: int, height: int, size: int,
                  body: str = "") -> matrix.StickerInfo:
     return {
         "body": body,
@@ -65,7 +65,7 @@ def make_sticker(ft: str, mxc: str, width: int, height: int, size: int,
             "w": width,
             "h": height,
             "size": size,
-            "mimetype": f"image/{ft}",
+            "mimetype": "image/png",
 
             # Element iOS compatibility hack
             "thumbnail_url": mxc,
@@ -73,7 +73,7 @@ def make_sticker(ft: str, mxc: str, width: int, height: int, size: int,
                 "w": width,
                 "h": height,
                 "size": size,
-                "mimetype": f"image/{ft}",
+                "mimetype": "image/png",
             },
         },
         "msgtype": "m.sticker",
