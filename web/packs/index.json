@@ -3,7 +3,8 @@
     "png.json",
     "Robertpackk.json",
     "KitShmil.json",
-    "fumoplushies.json"
+    "fumoplushies.json",
+    "gifs.json"
   ],
   "homeserver_url": "https://matrix-client.matrix.org"
 }
