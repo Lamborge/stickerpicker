@@ -1,5 +1,6 @@
 {
   "packs": [
+  	"Lovetotalsigilo.json",
     "TouhouShitMemes_by_fStikBot.json",
     "Robertpackk.json",
     "KitShmil.json",
@@ -11,8 +12,7 @@
     "fumoplushies2.json",
     "masyunskie_dela.json",
     "Cirnocirnocirno.json",
-    "fumouwu_by_fStikBot.json",
-    "Lovetotalsigilo.json"
+    "fumouwu_by_fStikBot.json"    
   ],
   "homeserver_url": "https://matrix-client.matrix.org"
 }
