@@ -1,11 +1,11 @@
 {
   "packs": [
-    "vedat_vechni_by_fStikBot.json",
-    "OYLXszw_by_achestickbot.json",
-    "das_Konata.json",
-    "Zilberman8841_by_TgEmojis_bot.json",
-    "AzumangaDaioh9.json",
-    "PadoruCirno_by_fStikBot.json",
+	"vedat_vechni_by_fStikBot.json",
+	"OYLXszw_by_achestickbot.json",
+	"das_Konata.json",
+	"Zilberman8841_by_TgEmojis_bot.json",
+	"AzumangaDaioh9.json",
+	"PadoruCirno_by_fStikBot.json",
 	"archlinuxmx.json",
 	"fumouwu_by_fStikBot.json",
 	"p9sp_by_fStikBot.json",
@@ -22,7 +22,6 @@
 	"fumoplushies2.json",
 	"MyFumopack.json",
 	"fumoplushies.json",
-	"OYLXszw_by_achestickbot.json",
 	"touhourus.json"
   ],
   "homeserver_url": "https://matrix.coventus.org"
